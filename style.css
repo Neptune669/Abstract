@@ -62,25 +62,31 @@ header nav {
   background: #fff;
 }
 @media screen and (min-width: 951px) {
-  .burger {
+  .res {
     display: none;
   }
 }
 @media screen and (max-width: 950px) {
+  header {
+    padding: 30px 10px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .right {
     display: none;
   }
-  .burger {
-    display: inline-block;
-  }
-  .burger :nth-child(1) {
+
+  .res :nth-child(1) {
     color: #fff;
     font-size: 2rem;
   }
-  .burger .search-icon:hover {
+  .res .search-icon:hover {
     font-size: 2.5rem;
   }
-  .burger :nth-child(2) {
+  .res :nth-child(2) {
     color: #fff;
     font-size: 2.5rem;
   }
